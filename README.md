@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-**QNL Archiver** is a powerful, multi-threaded Command Line Interface (CLI) tool designed to download digitized books and manuscripts from the Qatar National Library (QNL) and compile them seamlessly into high-quality PDF files. 
+**QNL Archiver** is a powerful, multi-threaded Command Line Interface (CLI) tool designed to download digitized books and manuscripts from [the Qatar National Library (QNL)](https://ediscovery.qnl.qa/ar) and compile them seamlessly into high-quality PDF files. 
 
 Built with user experience in mind, it features live progress tracking, asynchronous background tasks, and graceful error handling.
 
