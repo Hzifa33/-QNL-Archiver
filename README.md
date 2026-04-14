@@ -22,15 +22,15 @@ Built with user experience in mind, it features live progress tracking, asynchro
 
 ## 🚀 Installation
 
-1. **Clone the repository:**
+1. **Install System Dependencies (Termux):**
+   ```bash
+   pkg update && pkg install python qpdf git -y
+   ```
+
+2. **Clone the repository:**
    ```bash
    git clone https://github.com/Hzifa33/QNL-Archiver.git
    cd QNL-Archiver
-   ```
-
-2. **Install System Dependencies (Termux):**
-   ```bash
-   pkg update && pkg install python qpdf -y 
    ```
 
 3. **Install Python Requirements:**
