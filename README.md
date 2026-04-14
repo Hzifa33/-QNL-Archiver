@@ -24,39 +24,53 @@ Before you begin, ensure you have met the following requirements:
 ## 🚀 Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone [https://github.com/yourusername/QNL-Archiver.git](https://github.com/yourusername/QNL-Archiver.git)
    cd QNL-Archiver
+   ```
 
-```
- 2. **Install the required dependencies:**
+2. **Install the required dependencies:**
+
    It is highly recommended to use a virtual environment. Install the required packages using pip:
+
    ```bash
    pip install -r requirements.txt
-   
    ```
+
 ## 🛠️ Usage
- 1. **Run the script:**
+
+1. **Run the script:**
+
    ```bash
    python main.py
-   
    ```
- 2. **Follow the interactive prompts:**
-   * **Book ID:** Enter the QNL Book ID (e.g., QNL:00022881). You can find this ID in the URL of the book on the QNL digital archive website.
-   * **Output filename:** Enter your desired name for the final PDF file (without the .pdf extension).
+
+2. **Follow the interactive prompts:**
+
+   * **Book ID:** Enter the QNL Book ID (e.g., `QNL:00022881`). You can find this ID in the URL of the book on the QNL digital archive website.
+   * **Output filename:** Enter your desired name for the final PDF file (without the `.pdf` extension).
+
 ### Example Workflow
+
 ```text
   >  Book ID  e.g. QNL:00022881
   > QNL:00022881
 
   >  Output filename  (no extension)
   > History_of_Qatar
-
 ```
+
 *The tool will calculate the estimated size, ask for confirmation, and begin the download process while displaying a live progress bar.*
+
 ## ⚠️ Disclaimer
+
 This tool is intended for personal, educational, and research purposes only. Please respect the Qatar National Library's Terms of Service and copyright policies when downloading and using their digital materials. Do not use this tool to overwhelm their servers.
+
 ## 👨‍💻 Author
+
 Developed with ♥ by **Hzifa33**
+
 ## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
